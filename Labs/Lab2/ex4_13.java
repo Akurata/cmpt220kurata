@@ -11,7 +11,8 @@ public class ex4_13 {
 		
 		char ch = input.next().charAt(0);
 		
-		
+		// JA: You are missing the upper case characters. Also, you need to check if the charater is a letter
+		// JA: "y" is not a vowel
 		switch (Character.toLowerCase(ch)) {
 		  case 'a':
 		  case 'e':

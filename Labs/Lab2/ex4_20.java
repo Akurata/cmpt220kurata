@@ -11,7 +11,7 @@ public class ex4_20 {
 		
 		String message = input.nextLine();
 		
-		
+		// JA: You should create an output message with the answer.
 		int length = message.length(); //Gives input length
 		System.out.println(length);
 		
