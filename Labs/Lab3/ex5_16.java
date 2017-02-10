@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ex5_16 {
 
+	// JA: This program does not give all the factors. For example, factors for 340 are 2,2,5,17
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		

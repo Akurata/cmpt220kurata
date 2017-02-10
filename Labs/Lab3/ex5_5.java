@@ -13,7 +13,7 @@ public class ex5_5 {
 		double kiloRight = lbsRight * 0.453592;
 		
 		int i = 1;
-		for (i = 1; i < 199; i = i + 2) {
+		for (i = 1; i < 199; i = i + 2) { // JA: You are missing one iteration.
 			kilo = i;
 			lbs = kilo * 2.20462;
 			lbsRight = lbsRight + 5;
