@@ -1,4 +1,4 @@
-
+// JA: This is not problem 7.2
 import java.util.Scanner;
 
 
