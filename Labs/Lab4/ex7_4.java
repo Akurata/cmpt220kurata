@@ -1,4 +1,4 @@
-
+// JA: Add comments to your code
 import java.util.Scanner;
 
 
@@ -17,7 +17,7 @@ public class ex7_4 {
 				break;
 			}
 		}
-		averageScore = averageScore / i;
+		averageScore = averageScore / i; // JA: This has to be a non-integer division
 		int aboveCounter = 0;
 		int belowCounter = 0;
 		for (i = 0; i < 100; i++) {

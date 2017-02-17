@@ -1,4 +1,4 @@
-
+// JA: Add comments to your code
 import java.util.Scanner;
 
 
@@ -10,11 +10,11 @@ public class ex6_16 {
 		int y1 = input.nextInt();
 		System.out.print("Enter another year: ");
 		int y2 = input.nextInt();
-		
+		// JA: You were supposed to print every year with its days
 		int years = Math.abs(y1 - y2);
 		int leapYearCounter = 0;
 		for (int i = (y1 < y2 ? y1 : y2); i <= (y1 > y2 ? y1 : y2); i++) {
-			if (i % 4 == 0) {
+			if (i % 4 == 0) { // JA: This will not give you the leap years
 				leapYearCounter++;
 			}
 		}
