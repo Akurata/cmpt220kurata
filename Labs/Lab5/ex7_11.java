@@ -1,4 +1,4 @@
-
+// JA: Always add comments to your code
 import java.util.Scanner;
 
 
@@ -21,7 +21,7 @@ public class ex7_11 {
 		for (int i = 0; i < 10; i++) {
 			total = total + x[i];
 		}
-		total = (Math.pow(total - (total / x.length), 2)) / (x.length - 1);
+		total = (Math.pow(total - (total / x.length), 2)) / (x.length - 1); // JA: This applies to every element, not the total
 		total = Math.sqrt(total);
 		
 		return total;

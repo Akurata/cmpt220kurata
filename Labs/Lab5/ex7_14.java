@@ -1,4 +1,4 @@
-
+// JA: Alaways add comments to your code
 import java.util.Scanner;
 
 
@@ -14,14 +14,16 @@ public class ex7_14 {
 		}
 		System.out.println("The GCD is: " + gcd(nums));
 	}
+
+	// JA: This logic is not right
 	public static int gcd(int... numbers){
 		int gcd = 1;
 		int length = numbers.length - 1;
 		
-		int index = 0;
+		int index = 0; // JA: It would be better to say index = numbers[0]
 		int c = 0;
 		for (c = 0; c < 5; c++) {
-			if (index > numbers[c]) {
+			if (index > numbers[c]) { // JA: This will never be true because index == 0
 				index = numbers[c];
 			}
 		}

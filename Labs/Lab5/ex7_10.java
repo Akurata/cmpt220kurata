@@ -1,4 +1,4 @@
-
+// JA: Always add comments to your code
 import java.util.Scanner;
 
 
@@ -23,6 +23,6 @@ public class ex7_10 {
 				index = i;
 			}
 		}
-		return index;
+		return index; // JA: You called this index, but it's really computing the value
 	}
 }
