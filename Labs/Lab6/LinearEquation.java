@@ -48,10 +48,10 @@ public class LinearEquation {
 	}
 	
 	//Return solutions
-	int getX() {
+	int getX() { // JA: This should be double
 		return ((e * d) - (b * f)) / adMinusbc();
 	}
-	int getY() {
+	int getY() { // JA: This should be double
 		return ((a * f) - (e * c)) / adMinusbc();
 	}
 }
