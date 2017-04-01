@@ -1,7 +1,7 @@
 
 import java.util.ArrayList;
 
-
+// JA: There is no class to thest this
 public class ex11_5 {
 
 	public static void main(String[] args) {
