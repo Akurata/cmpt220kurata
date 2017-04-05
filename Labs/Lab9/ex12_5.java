@@ -1,10 +1,9 @@
-
 import java.util.Scanner;
 
-
-public class ex11_1 {
-
+public class ex12_5 {
+	
 	public static void main(String[] args) {
+		
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("Enter 3 side lengths: ");
@@ -29,8 +28,6 @@ public class ex11_1 {
 		System.out.println("Perimeter = " + t.getPerimeter());
 		System.out.println("Color: " + t.getColor());
 		System.out.println("Filed: " + t.isFilled());
-		
-		
 
 	}
 

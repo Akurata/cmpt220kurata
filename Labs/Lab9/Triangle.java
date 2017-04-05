@@ -10,11 +10,24 @@ public class Triangle extends GeometricObject {
 	}
 	
 	/**Basic constructor**/
+	/**Construct a Triangle with the specified sides**/
 	Triangle(double side1, double side2, double side3) {
+		
 		this.side1 = side1;
 		this.side2 = side2;
 		this.side3 = side3;
+		
+		isValidTriangle();
 	}
+	
+	private void isValidTriangle() throws IllegalTriangleException{
+        if (!isTriangle(side1, side2, side3)) {
+            throw new IllegalTriangleException(side1, side2, side3);
+        }
+    }
+	public static boolean isTriangle(double side1, double side2, double side3) {
+        return  ((side1 + side2 > side3) && (side1 + side3 > side2) && (side3 + side2 > side1));
+    }
 	
 	
 	/**Accessor Methods**/
@@ -27,7 +40,6 @@ public class Triangle extends GeometricObject {
 	double getSide3() {
 		return side3;
 	}
-	
 	
 	
 	@Override
