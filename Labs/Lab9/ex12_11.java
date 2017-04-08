@@ -11,6 +11,7 @@ public class ex12_11 {
 		
 		Scanner input = new Scanner(System.in);
 		
+		// JA: This had to be read from the commnad line arguments
 		System.out.println("Enter the word to be romved from the file:");
 		String nameRemove = input.nextLine();
 		
