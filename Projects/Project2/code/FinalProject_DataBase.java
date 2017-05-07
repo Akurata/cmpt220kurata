@@ -12,7 +12,7 @@ public class FinalProject_DataBase {
 	private static String command = null;
 	private static String name = null;
 	static boolean running = true;
-	static File f = new File("D:\\Software Development Final\\SoftwareDevelopmentFinal\\Database.txt");
+	static File f = new File("...\\cmpt220kurata\\Projects\\Project2\\data\\Database.txt");
 	
 	public static void main(String[] args) throws IOException, FileNotFoundException {
 		
